@@ -2,11 +2,11 @@
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 
-DOMAIN=yokkoeddystore.my.id
+DOMAIN=yokkoeddystore.com
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 #subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.yokkoeddystore.my.id
-#NS_dns=${subsl}.yokkoeddystore.my.id
+#NS_dns=${subsl}.yokkoeddystore.com
 CF_ID=yakkorasz74@gmail.com
 CF_KEY=d0c9f565106ef77f19f7c9f83713494bfe986
 set -euo pipefail
